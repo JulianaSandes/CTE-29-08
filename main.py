@@ -1,6 +1,8 @@
 from delta1 import delta
 from raizes import raiz
 
+import time
+
 a=int(input("Informe a: "))
 b=int(input("Informe b: "))
 c=int(input("Informe c: "))
@@ -17,3 +19,5 @@ elif(d==0):
 else:
     x=raiz(a,b,d)
     print("As raízes são: ",x)
+
+time.sleep(10)
